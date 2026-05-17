@@ -1,0 +1,74 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #333;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+.image-section img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.about {
+    padding: 30px;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.button-section {
+    margin: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
